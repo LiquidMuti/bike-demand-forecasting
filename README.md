@@ -36,11 +36,11 @@ All of the models were evalueated using walk-forward validation with one step ah
 ## Dataset
 
 Daily bike rental data including:
-total rentals (cnt)
-temperature (temp)
-humidity (hum)
-windspeed (windspeed)
-date (dteday)
+- total rentals (cnt)
+- temperature (temp)
+- humidity (hum)
+- windspeed (windspeed)
+- date (dteday)
 
 
 ## Modelling
@@ -79,9 +79,9 @@ MAE: 775
 4: ARIMAX
 
 Extend ARIMA to include the external driving factors:
-Temperature
-Humididty
-Windspeed
+- Temperature
+- Humidity
+- Windspeed
 
 Implemented SARIMAX without seasonal conditions
 
