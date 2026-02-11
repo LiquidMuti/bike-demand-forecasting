@@ -26,15 +26,14 @@ pip install -r requirements.txt
 jupyter notebook
 
 
-
-Overview
+## Overview
 
 In this project I evaluated time-series forecasting approaches for daily bike rental demand using Python. The goal was to try and improve predictive accuracy over simple models using statistical models.
 
 All of the models were evalueated using walk-forward validation with one step ahead forecasts, meaning each prediction only used information which would've been available at the time.
 
 
-Dataset
+## Dataset
 
 Daily bike rental data including:
 total rentals (cnt)
@@ -44,7 +43,7 @@ windspeed (windspeed)
 date (dteday)
 
 
-Modelling
+## Modelling
 
 1: Naive Basline
 
@@ -93,7 +92,7 @@ MAE: 677
 - Largest improvement across all models
 
 
-Evaluation Method
+## Evaluation Method
 
 All models were compared using:
 - Walk-forward validation
@@ -104,6 +103,6 @@ All models were compared using:
 This ensures a fair comparison between all models
 
 
-Conclusion
+## Conclusion
 
 While simple time-series models can capture short term demand dynamics, including external driving factors provides even more meaningful predictive performance gains. This highlights the importance of combining temporal structure with relevant predictors in applied forecasting problems.
