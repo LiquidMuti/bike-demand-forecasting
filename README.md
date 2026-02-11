@@ -54,7 +54,7 @@ This is quite a strong benchmark for short-term forecasting.
 MAE: 790
 
 
-2: ARIMA (1,1,1)
+### 2: ARIMA (1,1,1)
 
 A basic autoregressive model using past demand only.
 
@@ -66,7 +66,7 @@ MAE: 770
 - Outperformed naive baseline
 
 
-3: Seasonal ARIMA (weekly seasonality)
+### 3: Seasonal ARIMA (weekly seasonality)
 
 Tested weekly seasonal structure with: seasonal_order = (0,1,1,7)
 
@@ -76,7 +76,7 @@ MAE: 775
 - No improvement over non-seasonal ARIMA
 
 
-4: ARIMAX
+### 4: ARIMAX
 
 Extend ARIMA to include the external driving factors:
 - Temperature
