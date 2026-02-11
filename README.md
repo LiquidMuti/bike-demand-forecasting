@@ -30,7 +30,7 @@ jupyter notebook
 
 In this project I evaluated time-series forecasting approaches for daily bike rental demand using Python. The goal was to try and improve predictive accuracy over simple models using statistical models.
 
-All of the models were evalueated using walk-forward validation with one step ahead forecasts, meaning each prediction only used information which would've been available at the time.
+All of the models were evaluated using walk-forward validation with one step ahead forecasts, meaning each prediction only used information which would've been available at the time.
 
 
 ## Dataset
