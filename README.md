@@ -45,7 +45,7 @@ Daily bike rental data including:
 
 ## Modelling
 
-# 1: Naive Basline
+### 1: Naive Basline
 
 Prediction: Demand Today ≈ Demand Yesterday
 
